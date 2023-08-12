@@ -1,0 +1,137 @@
+.card{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  transform-style: preserve-3d;
+}
+.card-box{
+  display: flexbox;
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin: 40px;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+}
+.card-box::before{
+  content: 'asdasda';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 6em;
+  font-weight: 900;
+  color: whitesmoke;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+.card-box::after{
+  content: 'fghfghf';
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 5em;
+  font-weight: 900;
+  color: whitesmoke;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+.card-box:hover::before,
+.card-box:hover::after{
+  opacity: 0.4;
+}
+
+.card-box img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-product-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  transform-style: preserve-3d;
+  transform: translate3d(0,0,75px);
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+.card-box:hover .card-product-title{
+  top: 40px;
+  opacity: 1;
+}
+.card-button{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%,0,75px);
+  color: whitesmoke;
+  background: #333;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+.card-box:hover .card-button{
+  bottom: 30px;
+  opacity: 1;
+}
+.card-parallax1{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(0,-100%,0);
+  z-index: 10;
+  transition: 0.5s;
+}
+.card-box:hover .card-parallax1{
+  transform: translate3d(0,-100%,12px);
+}
+.card-parallax2{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(0,-100%,0);
+  z-index: 10;
+  transition: 0.5s;
+}
+.card-box:hover .card-parallax2{
+  transform: translate3d(0,-100%,25px);
+}
+.card-parallax3{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(0,-100%,0);
+  z-index: 10;
+  transition: 0.5s;
+}
+.card-box:hover .card-parallax3{
+  transform: translate3d(0,-100%,35px);
+}
