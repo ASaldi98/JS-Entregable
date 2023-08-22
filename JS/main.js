@@ -1,10 +1,4 @@
-let userValue = document.getElementById("user");
-let pwValue = document.getElementById("pw");
-let passw = "Bambi1234";
 let numb = 0;
-
-const signupForm = document.querySelector('#signup-form');
-const loginForm = document.querySelector('#login-form');
 
 //-----fuente: https://youtu.be/lwRiLHwHOjQ
 const wrapper = document.querySelector('.wrapper');

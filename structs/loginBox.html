@@ -1,24 +1,24 @@
-<span class="icon-close" onclick="closePopup()"><ion-icon name="close"></ion-icon></span>
+<span class="icon-close"><ion-icon name="close"></ion-icon></span>
 <div class="wrapper-form login">
     <h2>Inicia Sesión</h2>
     <form action="#" id="login-form">
         <div class="input-box">
             <span class="icon"><ion-icon name="person"></ion-icon></span>
-            <input type="text" required id="user"	oninput="validarUser()">
+            <input type="text" required id="user">
             <label>Usuario</label>
         </div>
         <div class="input-box">
             <span class="icon pwLock"><ion-icon name="lock-closed"></ion-icon></span>
-            <input type="password" required id="pw" oninput="validarPW()">
+            <input type="password" required id="pw">
             <label>Contraseña</label>
         </div>
         <div class="remember-forget">
             <label><input type="checkbox">Recuérdame</label>
             <a href="#">¿Olvidaste tu Contraseña?</a>
         </div>
-        <button type="" class="login-btn" onclick="login()">Iniciar Sesión</button>
+        <button type="submit" class="login-btn" id="login">Iniciar Sesión</button>
         <div class="login-signup">
-            <p>¿No tienes una cuenta? <a href="#" class="signup-link" onclick="signupTab()">Registrate</a></p>
+            <p>¿No tienes una cuenta? <a href="#" class="signup-link">Registrate</a></p>
         </div>
     </form>
 </div>
@@ -50,9 +50,9 @@
             <label><input type="checkbox">Acepto bases y condiciones</label>
             
         </div>
-        <button type="" class="login-btn">Registrarse</button>
+        <button type="submit" class="login-btn" id="signup">Registrarse</button>
         <div class="login-signup">
-            <p>¿Ya tienes una cuenta? <a href="#" class="login-link" onclick="loginTab()">Inicia Sesión</a></p>
+            <p>¿Ya tienes una cuenta? <a href="#" class="login-link">Inicia Sesión</a></p>
         </div>
     </form>
 </div>
