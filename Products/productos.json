@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Canguro INGSOC",
+        "descripcion": "El favorito del Gran Hermano. No vas a necesitar otro.",
+        "precio": 100,
+        "stock": 10000,
+        "imagenProd": "https://valueware.ug/wp-content/uploads/2021/07/overall-nb.jpg",
+        "cantPermitida": 2,
+        "prohibido": false
+    },
+    {
+        "id": 2,
+        "nombre": "Botones",
+        "descripcion":"El botón que mereces.",
+        "precio": 50,
+        "stock": 9000,
+        "imagenProd": "https://nationaltoday.com/wp-content/uploads/2021/10/Count-Your-Buttons-Day.jpg",
+        "cantPermitida": 10,
+        "prohibido": false
+    },
+    {
+        "id": 3,
+        "nombre": "Chocolate",
+        "descripcion":"Advertencia: puede generar alegría.",
+        "precio": 150,
+        "stock": 100000,
+        "imagenProd": "https://i0.wp.com/www.adelantosdigital.com/web/wp-content/uploads/2017/01/chocolate-negro.jpg",
+        "cantPermitida": 2,
+        "prohibido": false
+    },
+    {
+        "id": 4,
+        "nombre": "Cigarrillos",
+        "descripcion":"Alta calidad estandar",
+        "precio": 100,
+        "stock": 10000,
+        "imagenProd": "https://purepng.com/public/uploads/large/purepng.com-cigarette-packcigarettesmall-cylindertobaccoleavessmoke-1421526494802zdlxh.png",
+        "cantPermitida": 10,
+        "prohibido": false
+    },
+    {
+        "id": 5,
+        "nombre": "Hoja de afeitar",
+        "descripcion":"Suficiente filo",
+        "precio": 200,
+        "stock": 1000,
+        "imagenProd": "https://images.jamestowndistributors.com/images/scrapers/razor-blades-single-edge-2641.jpg",
+        "cantPermitida": 2,
+        "prohibido": false
+    },
+    {
+        "id": 100,
+        "nombre": "Libro en blanco",
+        "descripcion":"...",
+        "precio": 100,
+        "stock": 1,
+        "imagenProd": "https://media.istockphoto.com/id/174681061/photo/antique-blank-book.jpg?s=612x612&w=0&k=20&c=wC0MdYKBJyF4LXkzhKaTecgSnzBny1ucvRGJ-N7sJQY=",
+        "cantPermitida": 2,
+        "prohibido": true
+    }
+]

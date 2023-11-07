@@ -1,0 +1,38 @@
+<div class="contenedor" id="productos">
+	<div class="contenedor-items">
+        <div class="item">
+            <span class="titulo-item"></span>
+            <img src="" alt="">
+            <span class="precio-item"></span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+    </div>				
+</div>
+
+<div class="carrito">
+    <div class="header-carrito">
+        <div class="carrito-item">
+            <img src="${}" alt="" width="80px">
+            <div class="carrito-item-detalles">
+                <span class="carrito-item-titulo">${}</span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">${}</span>
+            </div>
+            <span class="btn-eliminar">
+                <i class="fa-solid fa-trash-can"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="carrito-total">
+        <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total"></span>
+        </div>
+        <button class="btn-pagar">Pagar <i class="fa-solid fa-wallet"></i></button>
+    </div>
+</div>

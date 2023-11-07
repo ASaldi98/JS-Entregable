@@ -1,59 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-	<title>Placeholder</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+	integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<title>BIG BROTHER Inc.</title>
 </head>
 <body>
-	<header class="menu-main"></header>
-
-	<div class="wrapper"></div>
-
-	<section>
-		<section id="hero-section">
-			<div class="container">
-				<div class="info">
-					<h1>This a header</h1>
-					<h2>Lorem ipsum dolor sit amet.</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis facere laboriosam itaque eaque officia laborum sapiente repellendus dolorum dolore.</p>
-					<button class="menu-main-session-login">See More</button>
-				</div>
-
-				<div class="card">
-					<div class="card-box">
-						<img src="./CSS/images/spidey-bg.png" alt="">
-						<h2 class="card-product-title">This a title</h2>
-						<a href="#" class="card-button">Buy now</a>
-						<div class="card-parallax1"><img src="./CSS/images/spidey-package-p1.png" alt=""></div>
-						<div class="card-parallax2"><img src="./CSS/images/spidey-package-p2.png" alt=""></div>
-						<div class="card-parallax3"><img src="./CSS/images/spidey-package-p2.png" alt=""></div>
-					</div>
-				</div>
+	<header><h1>BIG BROTHER INC.</h1></header>
+	<section class="contenedor" >
+		<div class="contenedor-items" id="productos"></div>				
+		
+		<div class="carrito">
+			<div class="header-carrito">
+				<h2>Tu Compra</h2>
 			</div>
-		</section>
-
-		<section>
-			<div class="bg">
-				<div>
-					<p>Placeholder</p>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam nostrum error sapiente, blanditiis mollitia beatae minus. Maiores saepe unde ex, cum quas temporibus alias? Molestias fugiat cumque doloremque minus rerum? Sequi qui iusto consectetur illum. Expedita atque eum deleniti.</p>
-				</div>
+			<div class="carrito-items">
 			</div>
-		</section>
+		
+			<div class="carrito-total">
+				<div class="fila">
+					<strong>Tu Total</strong>
+					<span class="carrito-precio-total"></span>
+				</div>
+				<button class="btn-pagar">Pagar <i class="fa-solid fa-wallet"></i></button>
+			</div>
+		</div>
+		
+		<div class="pagotarjeta">
+			
+		</div>
 	</section>
-
-	<script src="./js/main.js"></script>
-	<script type="text/javascript" src="./JS/vanilla-tilt.js"></script>
-	<script>
-		VanillaTilt.init(document.querySelectorAll(".card-box"), {
-    	max: 25,
-    	speed: 400
-		});
-	</script>
+	<script src="./JS/vanilla-tilt.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="./JS/main.js"></script>
 </body>
 </html>

@@ -1,29 +1,30 @@
-@import "menu.css";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+/*@import "navbar.css";
 @import "login.css";
 @import "hero.css";
 @import "3dCard.css";
+@import "searchbar.css";*/
+@import "shoppingCart.css";
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit';
 }
 
-body{
-    background-image: linear-gradient(to bottom right, #cc2b5e, #ff5858);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    perspective: 1500px;
+header{
+    background: url(https://www.zeiss.com/content/dam/z/vis-b2c/reference-master/images/better-vision/understanding-vision/the-complexities-of-the-human-eye/zeiss-the-complexities-of-the-human-eye-h.jpg/_jcr_content/renditions/original.image_file.1920.960.0,160,1920,1120.file/zeiss-the-complexities-of-the-human-eye-h.jpghttps://www.zeiss.com/content/dam/z/vis-b2c/reference-master/images/better-vision/understanding-vision/the-complexities-of-the-human-eye/zeiss-the-complexities-of-the-human-eye-h.jpg/_jcr_content/renditions/original.image_file.1920.960.0,160,1920,1120.file/zeiss-the-complexities-of-the-human-eye-h.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 280px;
 }
-
-body:after{
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    content: url();
+header h1{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    padding: 30px 0;
 }
 
 a{
@@ -38,10 +39,4 @@ ul{
     background-color: antiquewhite;
     border-radius: 5px;
     margin: 8px;
-}
-
-@media only screen and (max-width: 768px) {
-    html{
-        font-size: 10px;
-    }
 }
